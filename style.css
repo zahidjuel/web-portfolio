@@ -35,3 +35,36 @@ h1{
     background-repeat: no-repeat;
     background-position: right bottom;
 }
+.experiences-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 700px;
+    height: 405px;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    border-left: 6px solid tomato;
+    border-radius: 10px;
+    padding-left: 40px;
+    
+    
+}
+.experiences-item1{
+    box-shadow: 10px 10px 40px gray;
+    width: 600px;
+    height: 405px; 
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    border-left: 6px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+.left-banner{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+footer p{
+    text-align: center;
+}
