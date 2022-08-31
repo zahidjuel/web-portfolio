@@ -2,21 +2,33 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
+
 h1{
     font-size: 50px;
+    color: white;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3,p{
+    color: white;
 }
 .color-span{
-    color: orange;
+    color: tomato;
 }
 .flexible-display{
     display: flex;
 }
 .half-width{
     width: 50%;
-    padding-left: 7%;
+    padding: 4% 4% 4% 7%;
 }
 .half-width img{
-    width: 90%;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 10px;    
 }
 .link-button{
     text-decoration: none;
@@ -24,47 +36,32 @@ h1{
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 10px;
-    background-image: linear-gradient(tomato, orange);
+    background-image: linear-gradient(tomato,rgb(208, 81, 81));
 }
 .top-banner{
-    background-image: url(top-banner.png);
-    background-repeat: no-repeat;
+    height: 100vh;
+   background-image: url(images/mango.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: darken;
+   clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
 }
-.right-banner{
-    background-image: url(dream-bg.png);
+.middle-banner{
+    background-image: linear-gradient(black,rgb(77, 30, 22), rgb(35, 21, 21));
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-size: cover;
+    background-blend-mode: overlay;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
 }
 .experiences-item{
+    width: 40%;
+    margin: 0% 5% 5%;
+    padding: 0% 2% 2%;
+    border-radius: 15px;
     box-shadow: 10px 10px 40px gray;
-    width: 700px;
-    height: 405px;
-    margin-left: 5%;
-    margin-bottom: 10%;
-    border-left: 6px solid tomato;
-    border-radius: 10px;
-    padding-left: 40px;
-    
-    
+    background-image:linear-gradient(#bcc6cb,#252829);
 }
-.experiences-item1{
-    box-shadow: 10px 10px 40px gray;
-    width: 600px;
-    height: 405px; 
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 10%;
-    border-left: 6px solid;
-    border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1;
-    padding-left: 40px;
-    border-radius: 10px;
-}
-.left-banner{
-    background-image: url(exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left top;
-}
+
 footer p{
     text-align: center;
 }
